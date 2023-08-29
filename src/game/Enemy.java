@@ -43,10 +43,12 @@ public class Enemy {
 	
 	public void reduceHealth() {
 		
-		if(health <SCORE) {
+		if(health <=0) {
 			System.out.println("Enemy is dead");
+		
 		}else {
 			health -=SCORE;
+			System.out.println("Your Health is now:" +health);
 			
 			
 		}
