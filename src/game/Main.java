@@ -61,6 +61,7 @@ public class Main {
 			
 			if(enemyPos == heroPos) {
 				player2.getEnemy().reduceHealth();
+				System.out.println("the enemy has been hit!!");
 			
 			}
 			
