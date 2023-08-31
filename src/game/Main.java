@@ -66,6 +66,7 @@ public class Main {
 			}
 			
 			 createCanvas(canvasSize, heroPos,enemyPos);
+			 if(enemy.getHealth()==0) break;
 			
 			System.out.print("What direction do you want to move:");
 			String move =s.nextLine();
